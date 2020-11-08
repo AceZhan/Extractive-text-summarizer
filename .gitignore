@@ -3,3 +3,6 @@
 **/Session.vim
 cnndm_acl18
 cnn_stories_tokenized/finished_files*
+corpus.txt
+vocab.txt
+vocab_given.txt
