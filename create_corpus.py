@@ -1,4 +1,5 @@
 from os import listdir
+import time
 
 def load_doc(filename):
     file = open(filename)
@@ -26,5 +27,9 @@ def load_stories(directory):
         f.write('\n')
     f.close()
 
+start_time = time.time()
+load_stories("./cnn_stories_tokenized/1000_test/")
 # load_stories("./cnn_stories_tokenized/single_test")
-load_stories("./cnn_stories_tokenized/multi_test")
+# load_stories("./cnn_stories_tokenized/multi_test")
+print("--- %s seconds ---" % (time.time() - start_time))
+
