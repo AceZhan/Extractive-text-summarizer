@@ -38,3 +38,6 @@ build/*
 
 # OS X stuff
 ._*
+
+vocab*
+vectors*
