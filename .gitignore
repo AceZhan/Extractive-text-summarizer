@@ -3,3 +3,7 @@
 **/Session.vim
 cnndm_acl18
 cnn_stories_tokenized/finished_files*
+
+
+# python virtual env
+env/
