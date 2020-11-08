@@ -40,4 +40,4 @@ build/*
 ._*
 
 vocab*
-vectors*
+vectors.bin
