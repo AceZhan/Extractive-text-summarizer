@@ -4,7 +4,10 @@
 cnndm_acl18
 cnn_stories_tokenized/finished_files*
 
-
 # python virtual env
 env/
 __pycache__/
+
+corpus.txt
+vocab.txt
+vocab_given.txt
