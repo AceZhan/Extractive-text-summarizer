@@ -1,1 +1,5 @@
-cnn_stories_tokenized
+.DS_Store
+**/full_data_set
+**/Session.vim
+cnndm_acl18
+cnn_stories_tokenized/finished_files*
