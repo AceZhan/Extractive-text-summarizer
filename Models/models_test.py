@@ -15,7 +15,7 @@ def test_sentence_encoder_inout_format():
    # Create random input Tensor of share (1, 1, INPUT_SIZE)
    x = torch.randint(high=10, size=(INPUT_SIZE, 1))
 
-   encoder = m.SentenceEncoderRNN(INPUT_SIZE, OUTPUT_SIZE)
+   encoder = m.SentenceEncoderRNN(VOCAB_SIZE, INPUT_SIZE, OUTPUT_SIZE)
 
    # initial hidden vector for first input
    encoder_hidden = encoder.initHidden(device=device) 
