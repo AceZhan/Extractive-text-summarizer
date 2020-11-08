@@ -7,3 +7,4 @@ cnn_stories_tokenized/finished_files*
 
 # python virtual env
 env/
+__pycache__/
