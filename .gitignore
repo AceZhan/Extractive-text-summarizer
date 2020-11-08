@@ -3,3 +3,8 @@
 **/Session.vim
 cnndm_acl18
 cnn_stories_tokenized/finished_files*
+cnn_stories_tokenized/1000_test
+GloVe
+corpus.txt
+vocab.txt
+vocab_given.txt
